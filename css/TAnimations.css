@@ -18,7 +18,7 @@
 
 .zoom-in{
     animation-name: zoom-in;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes zoom-out {
@@ -38,7 +38,7 @@
 
 .zoom-out{
     animation-name: zoom-out;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes zoom-in-left {
@@ -61,7 +61,7 @@
 
 .zoom-in-left{
     animation-name: zoom-in-left;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes zoom-out-left {
@@ -81,7 +81,7 @@
 
 .zoom-out-left{
     animation-name: zoom-out-left;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes zoom-in-right {
@@ -104,7 +104,7 @@
 
 .zoom-in-right{
     animation-name: zoom-in-right;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes zoom-out-right {
@@ -124,7 +124,7 @@
 
 .zoom-out-right{
     animation-name: zoom-out-right;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes zoom-in-top {
@@ -147,7 +147,7 @@
 
 .zoom-in-top{
     animation-name: zoom-in-top;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes zoom-out-top {
@@ -167,7 +167,7 @@
 
 .zoom-out-top{
     animation-name: zoom-out-top;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes zoom-in-bottom {
@@ -190,7 +190,7 @@
 
 .zoom-in-bottom{
     animation-name: zoom-in-bottom;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes zoom-out-bottom {
@@ -210,7 +210,7 @@
 
 .zoom-out-bottom{
     animation-name: zoom-out-bottom;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes slide-in-left {
@@ -230,7 +230,7 @@
 
 .slide-in-left{
     animation-name: slide-in-left;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes slide-out-left {
@@ -250,7 +250,7 @@
 
 .slide-out-left{
     animation-name: slide-out-left;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes slide-in-right {
@@ -270,7 +270,7 @@
 
 .slide-in-right{
     animation-name: slide-in-right;
-    animation-timing-function: cubic-bezier();
+
 }
 
 @keyframes slide-out-right {
@@ -290,5 +290,24 @@
 
 .slide-out-right{
     animation-name: slide-out-right;
+
+}
+
+.zoom-in,
+.zoom-out,
+.zoom-in-left,
+.zoom-out-left,
+.zoom-in-right,
+.zoom-out-right,
+.zoom-in-top,
+.zoom-out-top,
+.zoom-in-bottom,
+.zoom-out-bottom,
+.slide-in-left,
+.slide-out-left,
+.slide-in-right,
+.slide-out-right{
     animation-timing-function: cubic-bezier();
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
