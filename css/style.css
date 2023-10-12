@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 body{
     background-color: rgb(0, 0, 0);
     background: linear-gradient(107deg, #0D0021 8.27%, #0D000F 86.15%);
     overflow-x: hidden;
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 .wrapper{
