@@ -1,7 +1,8 @@
 body{
     background-color: rgb(0, 0, 0);
-    background: linear-gradient(272deg, rgba(151, 71, 255, 0.80) 0%, rgba(0, 74, 173, 0.80) 100%), linear-gradient(0deg, rgba(0, 38, 83, 0.00) 0%, rgba(0, 38, 83, 0.00) 100%), rgba(0, 8, 78, 0.50);
+    background: linear-gradient(107deg, #0D0021 8.27%, #0D000F 86.15%);
     overflow-x: hidden;
+    color: white;
 }
 
 .wrapper{
@@ -33,4 +34,45 @@ body{
 
 .red-cube{
     border:2px solid red !important;
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    position: static;
+}
+
+.acrylic-button {
+    text-decoration: none;
+    color: #fff;
+    background: url("../Resources/noise.webp"), linear-gradient(93.07deg, #397ff0af 0%, #004bad98 100%), #397EF0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /*Note: backdrop-filter has minimal browser support;*/
+    border-radius: 35px;
+    padding: 9px 22px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.0);
+    border: none;
+    transition: all 0.5s;
+    width: fit-content;
+    gap: 10px;
+}
+
+.acrylic-button:hover {
+    color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.343);
+    border: 2px solid #0277bd;
+    transform: scale(105%);
+}
+
+.acrylic-button img,
+.acrylic-button svg {
+    height: 1rem;
+    width: auto;
 }
