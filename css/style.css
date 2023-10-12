@@ -68,13 +68,13 @@ body{
 
 .acrylic-button:hover {
     color: #fff;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.343);
     border: 2px solid #0277bd;
     transform: scale(105%);
+    box-shadow: 0px 0px 20px 0px rgba(134, 134, 134, 0.25);
 }
 
 .acrylic-button img,
 .acrylic-button svg {
-    height: 1rem;
+    height: 26px;
     width: auto;
 }
